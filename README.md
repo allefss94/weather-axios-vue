@@ -1,24 +1,8 @@
-# weather
+# Weather
 
-## Project setup
-```
-yarn install
-```
+Projeto criando com a praticar o consumo de dados de uma API meteorológica.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Tecnologias utilizadas
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-VueJs
+-Axios

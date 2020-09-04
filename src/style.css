@@ -1,0 +1,50 @@
+#app {
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+  background: #333;
+  width: 100vw;
+  height: 100vh;
+}
+
+.search {
+  background-image: url('./assets/search-background.png');
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40%;
+}
+.search h2 {
+  font-size: 1.9rem;
+  text-shadow: 0 0 2px black;
+  text-align: center;
+}
+.search input {
+  width: 75%;
+  padding: 12px 10px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+}
+.search button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.search button:hover {
+  background: #fff;
+  color: #333;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
